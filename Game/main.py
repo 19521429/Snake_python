@@ -78,4 +78,4 @@ while True:
 
     player.drawline(player.left, player.top, player.width - player.left - 20, player.height-player.top - 20)
     player.displayscore()
- 
+    pygame.display.flip()
